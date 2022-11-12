@@ -16,8 +16,9 @@ void solve() {
     }
 
     long long s = 0;
-    for(int i = 0; i < k; i++) 
+    for(int i = 0; i < k; i++) {
         s += a[i];
+    }
 
     cout << s << '\n';
 }
